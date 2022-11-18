@@ -1,0 +1,35 @@
+:root {
+    --primeira-cor: #764248;
+    --segunda-cor: #DDA3B2;
+
+    --borda: #FFADC6;
+
+    --fundo: #E3C5BB;
+    --text: #DFE2CF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fundo);
+    color: var(--text);
+    font-size: 30px;
+}
+
+h1 {
+    color: var(--primeira-cor)
+}
+
+.conteudo {
+    display: flex;
+
+    height: 200px;
+}
+
+.conteudo > .esquerda > img {
+    width: 70px;
+    height: 70px;
+}
